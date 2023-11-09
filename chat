@@ -1,0 +1,35 @@
+une table des jeux
+une table des éditeurs ;
+une table des genres de jeu (un jeu peu avoir plusieurs genres / plusieurs jeux peuvent avoir le même genre) ;
+une table des plateformes (un jeu peut avoir plusieurs plateformes / une plateforme concerne plusieurs jeux).
+ 
+
+Production attendue
+Le modèle de base de données sur une feuille de papier. (5 points)
+Les requêtes SQL permettant la création des tables. (2 points)
+Les requêtes SQL permettant le remplissage des tables (entre 10 et 20 jeux). (3 points)
+Au minimum cinq requêtes SQL intéressantes et mobilisant au maximum et au mieux les requêtes apprises, la complexité et l'originalité seront prises en compte dans l'évaluation. (10 points)
+
+Jeux
+id_jeu : INT
+nom : VARCHAR
+En ligne : Bool
+Multijoueur: Bool
+#id_genre
+#id_editeur
+#plateformes
+
+Editeurs
+id_editeur : INT
+nom : VARCHAR
+Genres
+id_genre : INT
+nom : VARCHAR
+Jouable_sur
+#id_jeu : INT
+#id_plateforme : INT
+Plateformes
+id_plateforme : INT
+nom : VARCHAR
+plateformes : VARCHAR
+Corrige et complète
